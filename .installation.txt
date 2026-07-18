@@ -3,6 +3,7 @@
 * npm i -D -g typescript (terminal)
 * npm i express (terminal)
 * tsc --init
+* Add { "type": "module", } to package.json file 
 * create src file to save typescript file 
 * create dist file to save js file
 * change file location (rootDir: .\src) (outDir: ./dist)
@@ -31,4 +32,5 @@
       bootstrap()
    * }
 * tsc(terminal: to compile express file to js file)
-* node ./dist/app.js (terminal: to run file)
+* node ./dist/server.js (terminal: to run file)
+* tsc -w (auto run and convirt file in real time) && {node ./dist/server.js}
