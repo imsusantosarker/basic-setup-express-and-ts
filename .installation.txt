@@ -31,8 +31,7 @@
       
       bootstrap()
    * }
-* tsc(terminal: to compile express file to js file)
+* tsc (terminal: to compile express file to js file)
 * node ./dist/server.js (terminal: to run file)
 * tsc -w (auto convirt file in real time) 
 * install nodemon package (auto run file to change) 
-* 
